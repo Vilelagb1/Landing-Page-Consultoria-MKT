@@ -1,0 +1,60 @@
+@import '../../../../src/styles.scss';
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 60px;
+  justify-content: space-between;
+  background-color: $light-color;
+
+    h2 {
+      color: $dark-color;
+
+      span {
+        color: $main-color;
+      }
+    }
+
+    .logo-e-nav {
+      display: flex;
+      flex-direction: row;
+      margin-left: 80px;
+      align-items: center;
+    }
+
+    
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      margin-left: 70px;
+      gap: 40px;
+
+    }
+
+    .login-e-registrar {
+      display: flex;
+      align-items: center;
+      margin-right: 70px;
+
+      .login {
+        background-color: transparent;
+      }
+
+      .registrar {
+        background-color: $main-color;
+      }
+    }
+
+    div button {
+      width: 130px;
+      height: 40px;
+      border: 1px solid $dark-color;
+      color: $dark-color;
+      border-radius: 5px;      
+      margin: 0px 10px 0px 10px;
+      font-size: medium;
+      font-weight: 600;  
+    }
+   
+}
