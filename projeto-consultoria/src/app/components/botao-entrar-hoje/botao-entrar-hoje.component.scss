@@ -1,0 +1,12 @@
+@import '../../../../src/styles.scss';
+
+button {
+  width: 192px;
+  height: 52px;
+  background-color: $main-color;
+  border: none;
+  border-radius: 8px;
+  font-size: medium;
+  font-weight: 600;
+  color: #FFFFFF;
+}
