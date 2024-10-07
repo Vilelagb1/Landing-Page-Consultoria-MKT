@@ -1,0 +1,40 @@
+main {
+
+  display: flex;
+  flex-direction: column;
+
+  .hero-section {
+    height: 960px;
+    border: 1px solid red;
+    display: flex;
+
+    .left-hero-section {
+      border: 1px solid blue;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: xx-large;
+
+      h1 {
+        margin-bottom: 300px;
+        border: 1px solid yellow;
+      }
+    }
+
+    .right-hero-section {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      border: 1px solid pink;
+
+      .hero-img {
+        width: 45rem;
+      }
+    }
+  }
+
+  
+}
