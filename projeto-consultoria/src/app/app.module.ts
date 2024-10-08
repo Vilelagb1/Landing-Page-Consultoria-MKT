@@ -8,6 +8,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { BotaoEntrarHojeComponent } from './components/botao-entrar-hoje/botao-entrar-hoje.component';
 import { ServicosContainerComponent } from './components/servicos-container/servicos-container.component';
 import { SubPageComponent } from './components/sub-page/sub-page.component';
+import { DepoimentosComponent } from './components/depoimentos/depoimentos.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { SubPageComponent } from './components/sub-page/sub-page.component';
     BotaoEntrarHojeComponent,
     ServicosContainerComponent,
     SubPageComponent,
+    DepoimentosComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
