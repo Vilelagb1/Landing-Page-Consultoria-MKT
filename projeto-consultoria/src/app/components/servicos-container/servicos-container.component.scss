@@ -1,0 +1,19 @@
+@import '../../../../src/styles.scss';
+
+div {
+  width: 686px;
+
+  p {
+    margin-top: 24px;
+  }
+
+  button {
+    margin-top: 32px;
+    width: 130px;
+    height: 40px;
+    border: 1px solid $dark-color;
+    border-radius: 8px;
+    background-color: transparent;
+    font-size: medium;
+  }
+}

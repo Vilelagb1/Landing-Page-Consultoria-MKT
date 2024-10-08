@@ -39,5 +39,33 @@ main {
   ::ng-deep app-botao-entrar-hoje {
     margin: 20px 0px 200px 60px
   }
+
+  //Início Mid Section ------------------------------------------
+
+  .mid-section {
+    height: 948px;
+    display: flex;
+    flex-direction: column;
+    background-color: $light-color;
+
+    .top-mid-section {
+      height: 25%;
+
+      h2 {
+        margin: 120px 0px 0px 80px;
+        font-size: xx-large;
+        font-weight: 400;
+      }
+    }
+
+    .botton-mid-section {
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+  }
   
 }

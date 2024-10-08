@@ -1,0 +1,27 @@
+.sub-page-container {
+  display: flex;
+  height: 600px;
+
+
+  .left-sub-page-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-sub-page-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h2 {
+    margin-bottom: 24px;
+  }
+
+  p {
+    margin-bottom: 60px;
+  }
+}
