@@ -21,6 +21,10 @@ main {
         margin-left: 60px;
         color: $dark-color;
       }
+
+      :host ::ng-deep #hero-button:hover app-botao-entrar-hoje {
+        cursor: pointer !important;
+      }
     }
 
     .right-hero-section {
@@ -30,11 +34,12 @@ main {
       justify-content: center;
 
       .hero-img {
-        width: 700px;
+        width: 680px;
         margin-bottom: 100px;
       }
     }
   }
+
 
   ::ng-deep app-botao-entrar-hoje {
     margin: 20px 0px 200px 60px
@@ -120,7 +125,7 @@ main {
     }
 
     ::ng-deep #segundo-botao-entrar-hoje {
-      margin-top: 195px;
+      margin-top: 198px;
     }
   }
 }
