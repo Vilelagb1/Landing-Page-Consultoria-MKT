@@ -68,6 +68,12 @@ main {
 
   }
 
+   //Início Sub Page Section ------------------------------------------
+
+   ::ng-deep #sub-page-2 app-sub-page {
+    flex-direction: row-reverse !important;
+   }
+
   //Início Depoimentos Section ------------------------------------------
 
   .depoimentos-section {
@@ -111,6 +117,10 @@ main {
       font-size: medium;
       font-weight: 600;
       color: $dark-color;
+    }
+
+    ::ng-deep #segundo-botao-entrar-hoje {
+      margin-top: 195px;
     }
   }
 }
