@@ -11,6 +11,17 @@ import { SubPageComponent } from './components/sub-page/sub-page.component';
 import { DepoimentosComponent } from './components/depoimentos/depoimentos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { provideRouter } from '@angular/router';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import {MatCardModule} from '@angular/material/card';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
+import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatIconModule} from '@angular/material/icon';
+import {MatInputModule} from '@angular/material/input';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -22,15 +33,27 @@ import { provideRouter } from '@angular/router';
     SubPageComponent,
     DepoimentosComponent,
     FooterComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatInputModule,
+
+    
+    
   ],
   providers: [
     provideClientHydration(),
-    provideRouter(routes)
+    provideRouter(routes),
+    provideAnimationsAsync()
+    
   ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+export class CardFancyExample {}
