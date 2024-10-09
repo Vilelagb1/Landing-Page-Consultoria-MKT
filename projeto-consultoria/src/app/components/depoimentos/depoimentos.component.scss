@@ -1,0 +1,64 @@
+@import '../../../../src/styles.scss';
+
+.h2-depoimentos{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: $dark-color
+}
+
+.paragraph-depoimentos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px 0 0 0;
+    color: $dark-color;
+}
+
+
+.cards-depoimentos{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+.example-card {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-color:#3D5656 ;
+    background-color: $light-color ;
+    color: $dark-color;
+
+     .sub-title-card{
+        color: $dark-color;
+     }
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  .example-header-image2 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_jhEUestgGKwB8Nl4P_mEv4eJoJvDXIVJQ&s');
+    background-size: cover;
+}
+  .example-header-image3 {
+    background-image: url('https://cdn-sites-images.46graus.com/files/photos/df28d5c5/4803ae26-8179-4d50-a602-91ede9a8573a/two-clicks-fotografia-pet_mar9704-1440x1920.jpg');
+    background-size: cover;
+}
+  .example-header-image4 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB4Ir_HLpJZyQdwt2i5r1_S8wj5z4mSmByrw&s');
+    background-size: cover;
+}
+  .example-header-image5 {
+    background-image: url('https://i.pinimg.com/564x/f6/8f/ea/f68feacc1a455ad2237558fe392b6a62.jpg');
+    background-size: cover;
+}
+  .example-header-image6 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdSt_mW-MNg3K9QTuwRs1VDSINQi1BvVROVg&s');
+    background-size: cover;
+}

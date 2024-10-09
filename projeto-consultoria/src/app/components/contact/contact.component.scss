@@ -1,0 +1,88 @@
+@import '../../../../src/styles.scss';
+.contact-box{
+    display: flex;
+    padding: 50px;
+    margin-top: 150px;
+    gap: 300px;
+   
+    .contact-text{
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        margin-top: 80px;
+        
+        h2{
+            text-decoration: none;
+            color: $main-color;
+            font-weight: 500;
+            font-size: 40px;
+            
+        }
+
+        p{
+            display: flex;
+            margin-top: 40px;
+            font-size: font-family;
+            text-decoration: none;
+            color: $dark-color;
+            font-weight: 500;
+            font-size: 25px;
+        }
+
+
+    }
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.from-aplication{
+    display: flex;
+    width: 600px;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: $main-color;
+    
+    
+}
+
+.form-group{
+    display: flex;
+    width: 300px;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    
+    
+
+}
+form input{
+    outline: unset;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid color $dark-color;
+    border-radius: 30px;
+    border: none;
+}
+form input[type=submit]{
+    background-color: $dark-color;
+    color: $light-color;
+    cursor: pointer;
+    border: none;
+}
+form label{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}   
+    
+    
+
+
