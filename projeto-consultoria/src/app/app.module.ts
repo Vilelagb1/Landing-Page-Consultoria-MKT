@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routes } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -10,6 +10,7 @@ import { ServicosContainerComponent } from './components/servicos-container/serv
 import { SubPageComponent } from './components/sub-page/sub-page.component';
 import { DepoimentosComponent } from './components/depoimentos/depoimentos.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { provideRouter } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FooterComponent } from './components/footer/footer.component';
     AppRoutingModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    provideRouter(routes)
   ],
   bootstrap: [AppComponent]
 })
